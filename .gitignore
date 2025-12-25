@@ -164,3 +164,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- EXPO MOBILE IGNORES ---
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/*.apk
+mobile/*.aab
