@@ -173,7 +173,7 @@ export default function HomeScreen() {
         </View>
 
         {/* ==================== ABOUT SECTION ==================== */}
-        <View style={[styles.section, { backgroundColor: colors.background }]}>
+        <View style={styles.section}>
           <Text style={[styles.sectionEyebrow, { color: colors.primary }]}>TENTANG KAMI</Text>
           <Text style={[styles.sectionTitle, { color: colors.text }]}>{aboutTitle}</Text>
           
@@ -187,7 +187,7 @@ export default function HomeScreen() {
         </View>
 
         {/* ==================== HISTORY SECTION ==================== */}
-        <View style={[styles.section, { backgroundColor: colorScheme === 'dark' ? colors.backgroundSecondary : '#f9fafb' }]}>
+        <View style={styles.section}>
           <Text style={[styles.sectionTitle, { color: colors.text }]}>Sejarah Kami</Text>
           
           {historyImage ? (
@@ -200,7 +200,7 @@ export default function HomeScreen() {
         </View>
 
         {/* ==================== MEMBERS SECTION ==================== */}
-        <View style={[styles.section, { backgroundColor: colors.background }]}>
+        <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <Text style={[styles.sectionTitle, { color: colors.text }]}>Member Lab</Text>
             <Text style={[styles.sectionDescription, { color: colors.textMuted }]}>
@@ -230,7 +230,7 @@ export default function HomeScreen() {
         </View>
 
         {/* ==================== PROJECTS SECTION ==================== */}
-        <View style={[styles.section, { backgroundColor: colorScheme === 'dark' ? colors.backgroundSecondary : '#f9fafb' }]}>
+        <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <Text style={[styles.sectionTitle, { color: colors.text }]}>Riset & Proyek</Text>
             <Text style={[styles.sectionDescription, { color: colors.textMuted }]}>
@@ -299,7 +299,7 @@ export default function HomeScreen() {
         </View>
 
         {/* ==================== PUBLICATIONS SECTION ==================== */}
-        <View style={[styles.section, { backgroundColor: colors.background }]}>
+        <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <Text style={[styles.sectionTitle, { color: colors.text }]}>Publikasi Ilmiah</Text>
             <Text style={[styles.sectionDescription, { color: colors.textMuted }]}>
@@ -325,7 +325,7 @@ export default function HomeScreen() {
         </View>
 
         {/* ==================== PARTNERS SECTION ==================== */}
-        <View style={[styles.section, { backgroundColor: colorScheme === 'dark' ? colors.backgroundSecondary : '#f9fafb' }]}>
+        <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <Text style={[styles.sectionTitle, { color: colors.text }]}>Partners & Funding</Text>
             <Text style={[styles.sectionDescription, { color: colors.textMuted }]}>
@@ -351,7 +351,7 @@ export default function HomeScreen() {
         </View>
 
         {/* ==================== FOOTER ==================== */}
-        <View style={[styles.footer, { backgroundColor: colors.background, borderTopColor: colors.border }]}>
+        <View style={[styles.footer, { borderTopColor: colors.border }]}>
           <Text style={[styles.footerText, { color: colors.textMuted }]}>© 2025 IoT Lab</Text>
           <Text style={[styles.footerLink, { color: colors.primary }]}>Institut Teknologi Bandung</Text>
         </View>
